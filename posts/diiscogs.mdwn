@@ -12,10 +12,13 @@ The projects' goal was to import it in a MySQL database and build a web app for 
 ## How was it done
 
 The most difficult and tedious part was to get and clean up the database.
+
 So it's available in xml [here](http://data.discogs.com/), and the biggest file is 30G.
 At first I thought I could just parse it the normal way, but with 4G of RAM, it wasn't gonna happen.
+
 Then I looked into streams and various ways to solve the problem, and then I found a [github repository](https://github.com/korcstar/php-discogsTomysql) that just did that in PHP. The import takes a good 3 days on an average machine with a good MySQL connection.
 It saved me a lot of time, and I am very grateful for this work.
+
 However the data imported was raw, the schema followed exactly how things were arranged in the XML 
 
 
