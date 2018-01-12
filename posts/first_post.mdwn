@@ -1,1 +1,0 @@
-Installing ikiwiki on a shared server is a massive pain in the ass.

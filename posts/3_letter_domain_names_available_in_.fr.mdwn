@@ -1,0 +1,29 @@
+While 1 and 2 letter domain names are completely taken in .fr (cf. linuxfr.org), many 3 letter ones remain.
+
+In fact, only 47% are taken.
+
+To cut it short, the list is at the bottom of this page.
+The code used to generate it is on my github.
+
+I have been looking for a short domain name for a while, and although there are some 2 letter ones left in some obscure extensions, a few hosting services offer .fr domains for free with a cheap hosting plan. So I began looking up names in bulk, the only reliable site I found for .fr in bulk was EuroDNS.
+And it was tedious and it only did 500 at a time and I ended up doing it myself.
+
+Armed with my life-long experience of busting APIs limits and getting IPs banned for scrapping websites, I began hitting the whois command as fast as my old cpu could. And soon enough I got a polite
+    %% Too many requests
+
+Luckily, the French government has been recently involved in an OpenData campaign and as a result the whois database for .fr domains is freely downloadable, without any account required. Here is the link : http://opendata.afnic.fr/fr/produits-et-services/le-fr/opendata-fr.html
+
+It is apparently not the case for .com and such (cf. dns - Possible to download entire whois database / list of registered domains? - Stack Overflow)
+
+By the way, the AFNIC, the french equivalent for IANA, these guys are awesome, they put an ascii art christmas tree in their whois response :
+
+![AFNIC ascii art christmas tree](/img/afnic_ascii_art_christmas_tree.jpg)
+
+With the database available, one could just generate all possible names with a given length and compute the set difference with the database of taken domain to get the available ones.
+
+When generating all possible names, one must be careful of the accepted syntax of domain names.
+Lower case letters, numbers and the hyphen are allowed, the hyphen must not be at the start or the end and double hyphens are allowed if they're not in 3rd and 4th position.
+
+Enjoy your short cryptic domain names !
+
+PS : I stumbled upon com.fr in that list. I enthusiastically said to myself : yeah, with a subdomain, i'd have blog.com.fr, how awesome is that ? It turns out it was too good to be true, and you apparently cannot register it. They thought of everything...
