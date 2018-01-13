@@ -1,9 +1,10 @@
 browse it [here](http://diiscogs.w-v.fr)
+the code is on my [github](https://github.com/w-v/diiscogs)
 
 ## What is it ?
 
 It's a web app for browsing the [discogs.com](http://discogs.com) database.
-discogs.com is a user-created database of music releases (albums, singles, EPs, etc.) The database is available in xml (over 30GB) and has over 350m entries.
+discogs.com is a user-made database of music releases (albums, singles, EPs, etc.) The database is available in xml (over 30GB) and has over 350m entries.
 
 This is a school project I did for a datastructure module during the 2nd year of my Computer Science degree.
 
@@ -11,14 +12,14 @@ The projects' goal was to import it in a MySQL database and build a web app for 
 
 ## How was it done
 
-The most difficult and tedious part was to get and clean up the database.
+The most difficult and tedious part was to import and clean up the database.
 
-So it's available in xml [here](http://data.discogs.com/), and the biggest file is 30G.
-At first I thought I could just parse it the normal way, but with 4G of RAM, it wasn't gonna happen.
+The XML [(available here)](http://data.discogs.com/), is as big as 30G.
+Without at least 32G of RAM, it is impossible to open it.
 
-Then I looked into streams and various ways to solve the problem, and then I found a [github repository](https://github.com/korcstar/php-discogsTomysql) that just did that in PHP. The import takes a good 3 days on an average machine with a good MySQL connection.
-It saved me a lot of time, and I am very grateful for this work.
+I looked into streams and various ways to solve the problem, then I found a [github repository](https://github.com/korcstar/php-discogsTomysql) that did exactly that in PHP. The import takes a good 3 days on an average machine with a good MySQL connection.
+It saved me a lot of time. I am very grateful for this work.
 
-However the data imported was raw, the schema followed exactly how things were arranged in the XML 
+However the data imported is raw, the schema follows exactly how things are written in XML.
 
 
