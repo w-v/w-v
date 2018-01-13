@@ -22,14 +22,3 @@ It saved me a lot of time. I am very grateful for this work.
 
 However the data imported is raw, the schema follows exactly how things are written in XML.
 
-for example, albums have genres, and in a database you would expect each genre to have an id, and be referenced by that id in the album table. But in the XML, genres are in plaintext, and the PHP script imports them that way. So in the album table, you end up wih 2m times "Pop" when that could be an integer id.
-It pretty much happens in every table.
-And then there are inconsistencies, missing data, etc.
-I've regrouped all the SQL requests that solve these different problems into several files
-
-with the database clean, all that remains is to makr indexes for everything. As it is only read and never written to, there is no drawbacks to it, except for database size, which for me is not a concern
-
-building the app
-
-I chose jquery because i know it well and i am well satisfied wih its features.
-PHP was required by the course I did this project for, but I probably would have chosen it anyway, as I am familiar wih it.
