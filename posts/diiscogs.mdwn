@@ -17,8 +17,3 @@ The most difficult and tedious part was to import and clean up the database.
 The XML [(available here)](http://data.discogs.com/), is as big as 30G.
 Without at least 32G of RAM, it is impossible to open it.
 
-I looked into streams and various ways to solve the problem, then I found a [github repository](https://github.com/korcstar/php-discogsTomysql) that did exactly that in PHP. The import takes a good 3 days on an average machine with a good MySQL connection.
-It saved me a lot of time. I am very grateful for this work.
-
-However the data imported is raw, the schema follows exactly how things are written in XML.
-
