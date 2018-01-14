@@ -1,7 +1,7 @@
 browse it [here](http://diiscogs.w-v.fr)
 the code is on my [github](https://github.com/w-v/diiscogs)
 
-## What is it ?
+# What is it ?
 
 It's a web app for browsing the [discogs.com](http://discogs.com) database.
 discogs.com is a user-made database of music releases (albums, singles, EPs, etc.) The database is available in xml (over 30GB) and has over 350m entries.
@@ -10,7 +10,7 @@ This is a school project I did for a datastructure module during the 2nd year of
 
 The projects' goal was to import it in a MySQL database and build a web app for browsing it.
 
-## How was it done
+# How was it done
 
 The most difficult and tedious part was to import and clean up the database.
 
