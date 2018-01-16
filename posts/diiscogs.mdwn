@@ -19,8 +19,8 @@ The most difficult and tedious part was to import and clean up the database.
 The XML [(available here)](http://data.discogs.com/), is as big as 30G.
 Without at least 32G of RAM, it is impossible to open it.
 
-I looked into streams and various ways to solve the problem, then I found a [github repository](https://github.com/korcstar/php-discogsTomysql) that did exactly that in PHP. The import takes a good 3 days on an average machine with a good MySQL connection.
-It saved me a lot of time. I am very grateful for this work.
+I looked into streams and various ways to solve the problem, then I found a [github repository](https://github.com/korcstar/php-discogsTomysql) that did exactly that in PHP. The database import takes a good 3 days on an average machine with a good MySQL connection.
+That work saved me a lot of time. I am very grateful for it.
 
 However the data imported is raw, the schema follows exactly how things are written in XML. A lot of tables have fields in plaintext they should be keys referencing other tables
 
@@ -34,7 +34,8 @@ I've used indexes pretty much everywhere, as the database is never written to, t
 
 ## Building the app
 
-I chose jquery because i know it well and i am satisfied by its features 
+I chose jquery because i know it well and i am satisfied by its features. 
 PHP was required by the course I did this project for, but I probably would have used it anyway, as I am familiar wih it.
 
+Ajax is used to load every page, and it is implemented so that it is possible to hit back and forward anf load a specific page by its url.
 
