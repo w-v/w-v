@@ -1,8 +1,7 @@
 browse it [here](http://diiscogs.w-v.fr)
-
 the code is on my [github](https://github.com/w-v/diiscogs)
 
-# What is it ?
+## What is it ?
 
 It's a web app for browsing the [discogs.com](http://discogs.com) database.
 discogs.com is a user-made database of music releases (albums, singles, EPs, etc.) The database is available in xml (over 30GB) and has over 350m entries.
@@ -11,31 +10,16 @@ This is a school project I did for a datastructure module during the 2nd year of
 
 The projects' goal was to import it in a MySQL database and build a web app for browsing it.
 
-# How was it done ?
+## How was it done
 
-## Importing and cleaning up
 The most difficult and tedious part was to import and clean up the database.
 
 The XML [(available here)](http://data.discogs.com/), is as big as 30G.
 Without at least 32G of RAM, it is impossible to open it.
 
-I looked into streams and various ways to solve the problem, then I found a [github repository](https://github.com/korcstar/php-discogsTomysql) that did exactly that in PHP. The database import takes a good 3 days on an average machine with a good MySQL connection.
-That work saved me a lot of time. I am very grateful for it.
+I looked into streams and various ways to solve the problem, then I found a [github repository](https://github.com/korcstar/php-discogsTomysql) that did exactly that in PHP. The import takes a good 3 days on an average machine with a good MySQL connection.
+It saved me a lot of time. I am very grateful for this work.
 
-However the data imported is raw, the schema follows exactly how things are written in XML. A lot of tables have fields in plaintext they should be keys referencing other tables
+However the data imported is raw, the schema follows exactly how things are written in XML.
 
-For example, albums have genres, and in a database you would expect each genre to have an id, and be referenced by that id in the album table. But in the XML, genres are in plaintext, and the PHP script imports them that way. So in the album table, you end up wih 2m times "Pop" when that could be an integer id.
-It pretty much happens in every table.
-
-And then there are inconsistencies, missing data, etc.
-I've regrouped all the SQL requests that solve these different problems into [several files]()
-
-I've used indexes pretty much everywhere, as the database is never written to, there is no drawbacks.
-
-## Building the app
-
-I chose jquery because i know it well and i am satisfied by its features. 
-PHP was required by the course I did this project for, but I probably would have used it anyway, as I am familiar wih it.
-
-Ajax is used to load every page, and it is implemented so that it is possible to hit back and forward anf load a specific page by its url.
 
