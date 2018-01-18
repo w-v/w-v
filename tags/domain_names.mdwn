@@ -1,0 +1,4 @@
+[[!meta title="pages tagged domain names"]]
+
+[[!inline pages="tagged(domain_names)" actions="no" archive="yes"
+feedshow=10]]
