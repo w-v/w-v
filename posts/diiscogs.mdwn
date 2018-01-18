@@ -40,3 +40,5 @@ Ajax is used to load entire pages, and it is implemented to allow normal browsin
 One thing I regret not having the time to complete is loading page as the user scrolls down or selects categories. It makes Ajax a bit useless for large pages. I am planning to do it at some point.
 
 
+[[!tag diiscogs SQL mySQL Ajax PHP HTML jQuery javascript database web music]]
+
