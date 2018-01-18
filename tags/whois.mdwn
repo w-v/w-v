@@ -1,0 +1,4 @@
+[[!meta title="pages tagged whois"]]
+
+[[!inline pages="tagged(whois)" actions="no" archive="yes"
+feedshow=10]]
