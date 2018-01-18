@@ -1,0 +1,4 @@
+[[!meta title="pages tagged '.fr'"]]
+
+[[!inline pages="tagged(__39__.fr__39__)" actions="no" archive="yes"
+feedshow=10]]
