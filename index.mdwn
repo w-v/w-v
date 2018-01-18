@@ -4,6 +4,13 @@
 [[!inline pages=sidebar raw=yes]]
 """]]
 
+Hii there,  
+I'm a computer science student  
+This is my blog
+
+You can checkout my [github](https://github.com/w-v/)
+
+
 [[!inline pages="page(./posts/*) and !*/Discussion" show="10"
 actions=yes rootpage="posts"]]
 
