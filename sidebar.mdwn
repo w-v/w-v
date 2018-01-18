@@ -6,5 +6,7 @@
 
 [[Archives]]
 
+[[Posts]]
+
 [[Tags]]:
 [[!pagestats style="list" pages="./tags/*" among="./posts/*"]]
