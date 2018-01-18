@@ -1,0 +1,4 @@
+[[!meta title="pages tagged aJax"]]
+
+[[!inline pages="tagged(aJax)" actions="no" archive="yes"
+feedshow=10]]
