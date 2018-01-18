@@ -1,0 +1,4 @@
+[[!meta title="pages tagged jQuery"]]
+
+[[!inline pages="tagged(jQuery)" actions="no" archive="yes"
+feedshow=10]]
