@@ -7,8 +7,7 @@ To cut it short, here is [the list](/dl/3letterdomainsfr.txt) as of December '17
 The code used to generate it is on my [github](https://github.com/w-v/3letterdomainsfr).
 
 #How I came to doing this
-I have been looking for a short domain name for a while, and although there are some 2 letter ones left in some obscure extensions, a few hosting services offer .fr domains for free with a cheap hosting plan. So I began looking up names in bulk, the only reliable site I found for .fr in bulk was [EuroDNS](https://my.eurodns.com/das/search).  
-And it was tedious and it only did 500 at a time and I ended up doing it myself.
+I have been looking for a short domain name for a while, and although there are some 2 letter ones left in some obscure extensions, a few hosting services offer .fr domains for free with a cheap hosting plan. So I began looking up names in bulk, the only reliable site I found for .fr in bulk was [EuroDNS](https://my.eurodns.com/das/search). And it was tedious and it only did 500 at a time and I ended up doing it myself.
 
 Armed with my life-long experience of busting APIs limits and getting IPs banned for scrapping websites, I began hitting the whois command as fast as my old cpu could. And soon enough I got a polite  
   `%% Too many requests`
@@ -28,4 +27,4 @@ Enjoy your short cryptic domain names !
 
 PS : I stumbled upon com.fr in that list. I enthusiastically said to myself : yeah, with a subdomain, i'd have blog.com.fr, how awesome is that ? It turns out it was too good to be true, and you apparently cannot register it. They thought of everything...
 
-[[!tag domain_names whois .fr domains database AFNIC]]
+[[!tag domain_names whois _.fr domains database AFNIC]]
