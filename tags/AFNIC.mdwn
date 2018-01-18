@@ -1,0 +1,4 @@
+[[!meta title="pages tagged AFNIC"]]
+
+[[!inline pages="tagged(AFNIC)" actions="no" archive="yes"
+feedshow=10]]
