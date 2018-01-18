@@ -30,17 +30,11 @@ And then there are inconsistencies, missing data, etc. I've regrouped all the SQ
 
 ## Building the app
 
-<<<<<<< HEAD
-I chose jquery because i know it well and i am satisfied by its features. 
-
-PHP was required by the course I did this project for, but I probably would have used it anyway, as I am familiar wih it.
-=======
 I chose jQuery because i know it well and i am satisfied by its features. 
 PHP was required by the course I did this project for, but I probably would have used it anyway, as I am familiar wih it.  No other librairies or framework were used.
 
 Ajax is used to load entire pages, and it is implemented to allow normal browsing functions like previous and next page, having an URL for each page and being able to load a specific page with its URL. That works with Apache URL rewriting, it redirects everything following a special format of URL to the frontend, that page then extracts parameters from the URL and makes the request to the backend.
 
 One thing I regret not having the time to complete is loading page as the user scrolls down or selects categories. It makes Ajax a bit useless for large pages. I am planning to do it at some point.
->>>>>>> 94f9a05c1331449a182714fc38221e7b847fe36d
 
 
