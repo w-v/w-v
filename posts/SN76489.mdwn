@@ -1,10 +1,10 @@
 #Introduction
-the [SN76489](wiki) is an 8-bit sound chip used in the Megadrive and other old game consoles and arcades.
+the [SN76489](https://en.wikipedia.org/wiki/Texas_Instruments_SN76489) is an 8-bit sound chip used in the Megadrive and other old game consoles and arcades.
 It's got 3 channels for notes and a white noise channel for percussion. It sounds very much like old video games.
 
-This project's goal is to make an alarm clock using this chip. The alarm sound being any tune playable (with 3 voices or less). For now I've played the mario tune, the zelda tune, Badinerie from Bach, and other less good sounding ones, but I've not tried much.
+This project's goal is to make an alarm clock using this chip. The alarm sound being any tune playable (with 3 voices or less). For now I've played the mario tune, the zelda tune, Badinerie from Bach, and other less good sounding ones, but I've not tried many.
 
-Here are some clips of the chip playing these tunes :
+Comming soon are some clips of the chip playing these tunes
 
 
 #Hardware and setup
@@ -18,7 +18,7 @@ I've used :
 	- an RTC
 	- some battery pack, push and self-locking buttons, caps, resistors, and other basic components
 
-here is the schema
+Schema will be coming at some point
 
 The shift registers are used to reduce the number of outputs from the Arduino. 
 On the sound chip, the shift register simply gets 8 bits clocked in and latches them to the chip. On the display the register lights the segments one after another. Ive put a cap between the clock and the latch to save an output, it works because only one bit is latched at a time
@@ -28,9 +28,9 @@ On the sound chip, the shift register simply gets 8 bits clocked in and latches 
 This project would have been much more complex without libraries for the sound chip, the display and the RTC. 
 I've made several additions to the sound chip and the display libraries, the RTC library already did everything I needed.
 
-## name of the sn76489 lib
+## [MusicSequencerTest](https://github.com/w-v/MusicSequencerTest)
 
-It's an awesome project by the name of the guy, it includes basic functions for playing notes, adjusting volume, and a sequencer plays a tune given a series of notes and durations .
+It's an awesome project by [allenhuffman](https://github.com/allenhuffman), it includes basic functions for playing notes, adjusting volume, and a sequencer plays a tune given a series of notes and durations .
 
 To play a tune, you would have to transcribe it in that format. I've written a program for this purpose, it takes a midi file, and outputs a string of the song in that format. It's available on my github.
 
