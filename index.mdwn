@@ -4,7 +4,10 @@
 [[!inline pages=sidebar raw=yes]]
 """]]
 
+![me](pics/me.jpg)
+
 Hii there,  
+I'm Robin Adili
 I'm a computer science student  
 This is my blog
 
@@ -16,3 +19,4 @@ actions=yes rootpage="posts"]]
 
 
 This blog is powered by [ikiwiki](http://ikiwiki.info).
+[Why is this so ugly ?](https://suckless.org/sucks/web/).
