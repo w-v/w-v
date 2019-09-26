@@ -2,7 +2,7 @@ browse it [here](http://diiscogs.w-v.fr)
 
 the code is on my [github](https://github.com/w-v/diiscogs)
 
-# What is it ?
+## What is it ?
 
 It's a web app for browsing the [discogs.com](http://discogs.com) database.
 discogs.com is a user-made database of music releases (albums, singles, EPs, etc.) The database is available in xml (over 30GB) and has over 350m entries.  
@@ -10,9 +10,9 @@ This is a school project I did for a datastructure module during the 2nd year of
 
 The projects' goal was to import it in a MySQL database and build a web app for browsing it.
 
-# How was it done ?
+## How was it done ?
 
-## Importing and cleaning up
+### Importing and cleaning up
 The most difficult and tedious part was to import and clean up the database.
 
 The XML [(available here)](http://data.discogs.com/), is as big as 30G. Without at least 32G of RAM, it cannot be opened
@@ -30,7 +30,7 @@ I've used indexes pretty much everywhere, as the database is never written to, t
 
 **If you are interested in the cleaned up database from March 2017, you can** [email me](mailto:me@w-v.fr)
 
-## Building the app
+### Building the app
 
 I chose jQuery because i know it well and i am satisfied by its features. 
 PHP was required by the course I did this project for, but I probably would have used it anyway, as I am familiar wih it.  No other librairies or framework were used.
