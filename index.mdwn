@@ -7,16 +7,15 @@
 ![me](pics/me.jpg)
 
 Hii there,  
-I'm Robin Adili
 I'm a computer science student  
 This is my blog
 
-You can checkout my [github](https://github.com/w-v/)
+You can checkout my [github](https://github.com/w-v/)    
+Here's my [CV](docs/cv.pdf)
 
 
 [[!inline pages="page(./posts/*) and !*/Discussion" show="10"
 actions=yes rootpage="posts"]]
 
 
-This blog is powered by [ikiwiki](http://ikiwiki.info).
-[Why is this so ugly ?](https://suckless.org/sucks/web/).
+This blog is powered by [ikiwiki](http://ikiwiki.info). [Why is it so ugly ?](https://suckless.org/sucks/web/).

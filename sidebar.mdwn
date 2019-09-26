@@ -12,4 +12,6 @@
 
 [GitHub](https://github.com/w-v/)
 
+[CV](docs/cv.pdf)
+
 [[!pagestats style="list" pages="./tags/*" among="./posts/*"]]
